@@ -10,7 +10,7 @@
 /* Portrait image */
 #portrait{
   justify-content: flex-start;
-  max-width: 12%;
+  width: 12%;
   order: -2;
   padding: 5px;
   background-color: var(--photoborder);
@@ -191,5 +191,17 @@ footer p{
   }
   #showcase{
     margin:20px 25px;
+  }
+  #portrait{
+    margin-left: 12.5%;
+    width: 75%;
+  }
+  content{
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--headercolor);
+  }
+  header{
+    justify-content: center;
   }
 }
